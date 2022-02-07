@@ -1,8 +1,5 @@
-let element = document.querySelector('main');
-element.remove('main');
+document.querySelector('main').remove()
 
-
-let newHeader = document.createElement('H1');
-newHeader.id ='victory';
-newHeader.innerHTML = "Alex is the champion"
-
+let newHeader = document.createElement('h1')
+newHeader.id = 'victory';
+newHeader.textContent = 'Alex is the champion'
